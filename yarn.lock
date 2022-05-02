@@ -2655,7 +2655,7 @@ electron-to-chromium@^1.4.84:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.103.tgz#abfe376a4d70fa1e1b4b353b95df5d6dfd05da3a"
   integrity sha512-c/uKWR1Z/W30Wy/sx3dkZoj4BijbXX85QKWu9jJfjho3LBAXNEGAEW3oWiGb+dotA6C6BzCTxL2/aLes7jlUeg==
 
-eme-encryption-scheme-polyfill@^2.0.1:
+eme-encryption-scheme-polyfill@^2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/eme-encryption-scheme-polyfill/-/eme-encryption-scheme-polyfill-2.0.4.tgz#7d818302af3f3b19d5974255dcc92dc087413845"
   integrity sha512-MHYJX1v145Pjj2YJTrVVuJOYyXrxGVy8LWf6kV5M4jrV/GyoeuJKyTuD+GaD+VAiE8Ip+MptiH4dXk6ZVmMNow==
@@ -5697,14 +5697,13 @@ react-native-gradle-plugin@^0.0.5:
   dependencies:
     react-native-codegen "*"
 
-react-native-video@5.2.0:
+"react-native-video@git+https://github.com/tailt94/react-native-video.git#tailt/exoplayer-2.15.1":
   version "5.2.0"
-  resolved "https://registry.yarnpkg.com/react-native-video/-/react-native-video-5.2.0.tgz#c3f2c541775f4fda7e0d26d75a6fb59819b13d5e"
-  integrity sha512-5SK1lxyzrCkZF+WuxUxLR1Pt65E0rsWB1w1GrGxSLdC9zWYBumcmuHl+wPJ7UQvznjaH2Ze7uU1R3arejI7+WQ==
+  resolved "git+https://github.com/tailt94/react-native-video.git#3dd73ba97e1b18ab9767a90b116681be91caab64"
   dependencies:
     keymirror "^0.1.1"
     prop-types "^15.7.2"
-    shaka-player "^2.5.9"
+    shaka-player "^3.3.2"
 
 react-native@0.68.0:
   version "0.68.0"
@@ -6171,12 +6170,12 @@ setprototypeof@1.2.0:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
   integrity sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
 
-shaka-player@^2.5.9:
-  version "2.5.23"
-  resolved "https://registry.yarnpkg.com/shaka-player/-/shaka-player-2.5.23.tgz#db92d1c6cf2314f0180a2cec11b0e2f2560336f5"
-  integrity sha512-3MC9k0OXJGw8AZ4n/ZNCZS2yDxx+3as5KgH6Tx4Q5TRboTBBCu6dYPI5vp1DxKeyU12MBN1Zcbs7AKzXv2EnCg==
+shaka-player@^3.3.2:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/shaka-player/-/shaka-player-3.3.4.tgz#7d137a18fc0f55c50852a4348c8319495b5fa546"
+  integrity sha512-8PrUBA8aOABGvhQVa59XMoPo5myAoQF4ptx6gvZWPOBtdsyVaamqQKELY77ikZJ1ejup7BmHf42MXGFmxQfcaA==
   dependencies:
-    eme-encryption-scheme-polyfill "^2.0.1"
+    eme-encryption-scheme-polyfill "^2.0.3"
 
 shallow-clone@^3.0.0:
   version "3.0.1"

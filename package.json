@@ -12,7 +12,7 @@
     "dependencies": {
         "react": "17.0.2",
         "react-native": "0.68.0",
-        "react-native-video": "5.2.0"
+        "react-native-video": "git+https://github.com/tailt94/react-native-video.git#tailt/exoplayer-2.15.1"
     },
     "devDependencies": {
         "@babel/core": "^7.12.9",

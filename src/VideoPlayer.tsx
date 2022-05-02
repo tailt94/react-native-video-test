@@ -274,7 +274,7 @@ export const VideoPlayer: React.FC<Props> = function ({ start, onFinished }) {
             <View style={styles.player.container}>
                 <Video
                     source={{
-                        uri: 'https://cdn81168665.blazingcdn.net/timeline/hartley-e001-s001a-01-2b6d4c/stream/index.m3u8'
+                        uri: 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
                     }}
                     ref={primaryRef}
                     resizeMode={'contain'}
